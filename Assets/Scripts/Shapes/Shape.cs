@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 [RequireComponent(typeof(MeshRenderer))]
-public abstract class Shape : MonoBehaviour
+public abstract class Shape : MonoBehaviour // INHERITANCE
 {
     [Header("Shape data")]
     [SerializeField] private string shapeName;
@@ -12,8 +12,8 @@ public abstract class Shape : MonoBehaviour
 
     private MeshRenderer shapeRenderer = null;
 
-    public string ShapeName { get { return shapeName; } set { shapeName = value; } }
-    public Color ShapeColor { get { return shapeColor; } set { shapeColor = value; } }
+    public string ShapeName { get { return shapeName; } set { shapeName = value; } } // ENCAPSULATION”
+    public Color ShapeColor { get { return shapeColor; } set { shapeColor = value; } } // ENCAPSULATION”
 
 
     [Header("Display Text General Data")]

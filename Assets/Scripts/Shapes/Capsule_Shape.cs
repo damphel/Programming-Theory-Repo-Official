@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Capsule_Shape : Shape
+public class Capsule_Shape : Shape // INHERITANCE
 {
-    protected override void DisplayText()
+    protected override void DisplayText() // POLYMORPHISM
     {
         base.DisplayText();
 

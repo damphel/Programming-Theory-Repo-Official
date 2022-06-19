@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cube_Shape : Shape
+public class Cube_Shape : Shape // INHERITANCE
 {
     [Header("Cube Data")]
     [SerializeField] float rotateSpeed = 5f;
@@ -10,15 +10,15 @@ public class Cube_Shape : Shape
 
     private void Update()
     {
-        RotateBySpeed();
+        RotateBySpeed(); // ABSTRACTION
     }
 
-    public void RotateBySpeed()
+    public void RotateBySpeed() // ABSTRACTION
     {
         transform.Rotate(rotateDirection * rotateSpeed * Time.deltaTime);
     }
 
-    protected override void DisplayText()
+    protected override void DisplayText() // POLYMORPHISM
     {
         base.DisplayText();
 
