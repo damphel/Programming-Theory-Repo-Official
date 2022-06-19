@@ -1,0 +1,1733 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.35f1 (18e4db7a9996) revision 1631451'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 32600 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\2020.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Users/denis/Desktop/Programming-Theory-Repo-Official
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53913
+Successfully changed project path to: D:/Users/denis/Desktop/Programming-Theory-Repo-Official
+D:/Users/denis/Desktop/Programming-Theory-Repo-Official
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.35f1 (18e4db7a9996)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2020.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/denis/Desktop/Programming-Theory-Repo-Official/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   
+    VRAM:     10078 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/2020.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/2020.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/2020.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/2020.3.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity/2020.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000908 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (410ms)
+		BeginReloadAssembly (48ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (317ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (134ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (661ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3304 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.5 MB.
+System memory in use after: 152.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3739.
+Total: 2.328000 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.095000 ms MarkObjects: 1.915200 ms  DeleteObjects: 0.096400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Rover Cleaning Denis
+  artifactKey: Guid(fde2c043f954c664981603a6b3ff9fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis using Guid(fde2c043f954c664981603a6b3ff9fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e9b04a771b56ff34e97e26234383d8') in 0.007642 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002191 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (770ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (221ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3742.
+Total: 2.415300 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.081600 ms MarkObjects: 2.053000 ms  DeleteObjects: 0.085600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.788703 seconds.
+  path: Assets/Physics Hulls
+  artifactKey: Guid(a209a32aac09f244fbfb8aad15208468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Physics Hulls using Guid(a209a32aac09f244fbfb8aad15208468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265e6094a4a13fe039b2d078db051766') in 0.008094 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (736ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3745.
+Total: 2.469400 ms (FindLiveObjects: 0.176300 ms CreateObjectMapping: 0.080200 ms MarkObjects: 2.144100 ms  DeleteObjects: 0.068100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79.929305 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/Sphere.cs
+  artifactKey: Guid(b5540bab8fc1064489d053fefbd66e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/Sphere.cs using Guid(b5540bab8fc1064489d053fefbd66e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1504d7cbc496f9606a8b509c807447bc') in 0.035157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001532 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources
+  artifactKey: Guid(739cc03f49c8ac34eabd26f393cc964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources using Guid(739cc03f49c8ac34eabd26f393cc964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e757bfb5940c32a8e48a96ba12473bf2') in 0.016262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002008 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/PrevClick.cs
+  artifactKey: Guid(31c0f204d1b044caaa02a0726f11a270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/PrevClick.cs using Guid(31c0f204d1b044caaa02a0726f11a270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c7782779876aabde56ff1da6f9b3a3') in 0.004695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002027 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Systems/SysProcessSearch.cs
+  artifactKey: Guid(afd561b0c1384bcc82976f2624afa895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Systems/SysProcessSearch.cs using Guid(afd561b0c1384bcc82976f2624afa895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39eb2e939eaf4dcc8f7dbd460488ae7') in 0.005054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039036 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD/VhacdLicense.txt
+  artifactKey: Guid(f65f5c37d5cf69a449e43a023e8349f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD/VhacdLicense.txt using Guid(f65f5c37d5cf69a449e43a023e8349f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289bfe7d74de06924e586667ea6a3796') in 0.029252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014683 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d843fc8cc22299d77419605c279591') in 0.005947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004250 seconds.
+  path: Assets/Rover Cleaning Denis/Game_RoverMechanicSimulator/Cleaning/Rover_Cleaning.unity
+  artifactKey: Guid(4617b4ad0c58bb04ea98df1cbc284336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Game_RoverMechanicSimulator/Cleaning/Rover_Cleaning.unity using Guid(4617b4ad0c58bb04ea98df1cbc284336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c81bb13e6eb76d8a06507cda3bf7f6f') in 0.003571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004012 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486066d15e4e2d1f404625b357b63227') in 0.004410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003594 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/IgnoreTypes.cs
+  artifactKey: Guid(34f1d98d6e464e5ebee0df9de721af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/IgnoreTypes.cs using Guid(34f1d98d6e464e5ebee0df9de721af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e52e82e849afe9f2da954b34fa543e') in 0.004172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002537 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data
+  artifactKey: Guid(4848aa5846cd6264c984dcc6cd9d72af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data using Guid(4848aa5846cd6264c984dcc6cd9d72af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186c1bb4f02fe2b4f9cf240873be9cf6') in 0.003573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004832 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/UI_Bar.cs
+  artifactKey: Guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/UI_Bar.cs using Guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baf02974f5187e1688350dfd1732ec5') in 0.003617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002862 seconds.
+  path: Assets/Rover Cleaning Denis/BoxedConvexCollider
+  artifactKey: Guid(e0d818f1eaf374849baae81fde1fc18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/BoxedConvexCollider using Guid(e0d818f1eaf374849baae81fde1fc18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360cafffc824aef5b97fe1d257d00a90') in 0.004026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004174 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/DeleteCollidersIcon.png
+  artifactKey: Guid(ed9275bac7ebdba40bcdb90e630e90d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/DeleteCollidersIcon.png using Guid(ed9275bac7ebdba40bcdb90e630e90d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401c032894581674d0f36216a09f5d12') in 0.041183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004174 seconds.
+  path: Assets/Rover Cleaning Denis/1. DENIS/Textures/Minerals/Fluorite/Clean.cs
+  artifactKey: Guid(53741b4422bf5fd41a7374b42f7aeb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/1. DENIS/Textures/Minerals/Fluorite/Clean.cs using Guid(53741b4422bf5fd41a7374b42f7aeb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62337460a2ed43548c430f35e8c38dc') in 0.003951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003962 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/HullPainterEditor.cs
+  artifactKey: Guid(a26eeef24d6657e4c89f0480907f1300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/HullPainterEditor.cs using Guid(a26eeef24d6657e4c89f0480907f1300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a08ea6a38d0c2c6a72ed11a84dc15e') in 0.003789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014212 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/UI_BarMultiple.cs
+  artifactKey: Guid(9cf7b152002fbca49b6a1a4623f200a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/UI_BarMultiple.cs using Guid(9cf7b152002fbca49b6a1a4623f200a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f8233cdf4905539ad2d20cd70bffe2') in 0.004029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004450 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/Vhacd/VhacdTask.cs
+  artifactKey: Guid(37f5f555ad5daf5438f66cd06bee04b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/Vhacd/VhacdTask.cs using Guid(37f5f555ad5daf5438f66cd06bee04b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3badeec8dbc1e338d602795aa1654ac5') in 0.003834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004307 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/World_Mesh.cs
+  artifactKey: Guid(91ce8dcaef210db41a183b4558f16bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/World_Mesh.cs using Guid(91ce8dcaef210db41a183b4558f16bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1ab141cb747ae7ee8d8adad0b631f0') in 0.003774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004335 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/PaintingData.cs
+  artifactKey: Guid(0de965f2e710c1c489ead8e62cd25da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/PaintingData.cs using Guid(0de965f2e710c1c489ead8e62cd25da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19364ba95fb04cc747e713832151e5f5') in 0.003536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004838 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/GenerateIcon.png
+  artifactKey: Guid(8f4a8daa15e424c49a907c8b7c46199a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/GenerateIcon.png using Guid(8f4a8daa15e424c49a907c8b7c46199a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146eb8a73ab6577b12ce3d070bfed385') in 0.007247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007985 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/HullIcon.png
+  artifactKey: Guid(4c9c759cb2cbee14ba109578d882b560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/HullIcon.png using Guid(4c9c759cb2cbee14ba109578d882b560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4fac0bb7a92b2510c8a0d32bf1be89') in 0.007698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005058 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/QHullUtil.cs
+  artifactKey: Guid(0cda45b152157704da8492890fb2178e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/QHullUtil.cs using Guid(0cda45b152157704da8492890fb2178e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dab41ceab22ca7dfaf7097a2cff17a6') in 0.003707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008842 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/SceneDetails.cs
+  artifactKey: Guid(14749f86c2c14febb592442508f8c23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/SceneDetails.cs using Guid(14749f86c2c14febb592442508f8c23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8833a89734c3676662c1bba4ba3076') in 0.003939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004948 seconds.
+  path: Assets/Rover Cleaning Denis/BoxedConvexCollider/SampleScenes/Materials/Model.mat
+  artifactKey: Guid(60d95cd33892a8742a1364a93f9023cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/BoxedConvexCollider/SampleScenes/Materials/Model.mat using Guid(60d95cd33892a8742a1364a93f9023cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d0e4612cdb670219fe61e0235f013c') in 0.264911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003102 seconds.
+  path: Assets/Rover Cleaning Denis/_
+  artifactKey: Guid(4ad70f11d566df74ea78e615ab4e6803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_ using Guid(4ad70f11d566df74ea78e615ab4e6803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75440df750204442bd34415c226453d') in 0.003916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004550 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/PhysicsCreatorInstallRoot.asset
+  artifactKey: Guid(1e2fdead521f5234a9359eff2a781b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/PhysicsCreatorInstallRoot.asset using Guid(1e2fdead521f5234a9359eff2a781b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9032e1a086deb864e94b722a7c6bce63') in 0.005686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007528 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/GizmoUtils.cs
+  artifactKey: Guid(0f1abcdbe1c801b4f9bbaf085f9dcb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/GizmoUtils.cs using Guid(0f1abcdbe1c801b4f9bbaf085f9dcb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8164ff0a651dcaa1200cbe6a7c943759') in 0.003789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003834 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Systems/SysRepaintWindow.cs
+  artifactKey: Guid(673a2486762b4e3da784f1657b90bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Systems/SysRepaintWindow.cs using Guid(673a2486762b4e3da784f1657b90bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1335678945b113bcdac8a0182b74e5') in 0.004345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002630 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils
+  artifactKey: Guid(8f9623ba76cbf214994b7b865c65f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils using Guid(8f9623ba76cbf214994b7b865c65f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c22ebe3069f5491ad043734c8c22e0') in 0.003645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004012 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Systems/SysUndoRedoSelection.cs
+  artifactKey: Guid(6e6a2f49ce174cabbc560ea8e3e9975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Systems/SysUndoRedoSelection.cs using Guid(6e6a2f49ce174cabbc560ea8e3e9975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32b722fa038592870a11e2bc83dcc90') in 0.003776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007214 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/TriggerOnIcon.png
+  artifactKey: Guid(d1bbb9bfbc023de42b9dbf51220042ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/TriggerOnIcon.png using Guid(d1bbb9bfbc023de42b9dbf51220042ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2074ec5c7ba1e64dcf6927015f84aa0') in 0.007654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004044 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c7e8c05f0bd33109dc2d57db10fb99') in 0.004953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003850 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/SelectionUtil.cs
+  artifactKey: Guid(d09fae2616de04b6492546c674309750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/SelectionUtil.cs using Guid(d09fae2616de04b6492546c674309750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d7a1fd4d22a8d7d4b21a4e8cb7a813') in 0.004087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002510 seconds.
+  path: Assets/Rover Cleaning Denis/1. DENIS/Textures/LowlyPoly/Free Stylized Textures
+  artifactKey: Guid(6afd7cc41d9f63941b9155f802ec1ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/1. DENIS/Textures/LowlyPoly/Free Stylized Textures using Guid(6afd7cc41d9f63941b9155f802ec1ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa15cb93c1e70e01b713f257984aea1d') in 0.003452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008756 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/MonoBehaviours/CameraFollow.cs
+  artifactKey: Guid(f73a3eab49f30d344a207d7d3d931d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/MonoBehaviours/CameraFollow.cs using Guid(f73a3eab49f30d344a207d7d3d931d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3a8290b2c2787a815bd5e871a8ecff') in 0.004603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032029 seconds.
+  path: Assets/Rover Cleaning Denis/NewBehaviourScript.cs
+  artifactKey: Guid(ad54145d87093cf468e2348db5d1d9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/NewBehaviourScript.cs using Guid(ad54145d87093cf468e2348db5d1d9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff1fe169e90150217c059316f092e89') in 0.004086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024266 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/PhysicsSeeder.cs
+  artifactKey: Guid(bccab2ee3333a0948a6facfbfb38e6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/PhysicsSeeder.cs using Guid(bccab2ee3333a0948a6facfbfb38e6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3344822a91911ec348ff99c4aba0e49b') in 0.004379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003918 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/RotatedBoxFitter.cs
+  artifactKey: Guid(efd8c5541c710ea4191c0c9793fd4fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/RotatedBoxFitter.cs using Guid(efd8c5541c710ea4191c0c9793fd4fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058b06abe16fa4206c8b01bf88d1cde2') in 0.004104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004246 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/Vhacd/VhacdParameters.cs
+  artifactKey: Guid(0276feef8d1857541938d2efab559808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/Vhacd/VhacdParameters.cs using Guid(0276feef8d1857541938d2efab559808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfb07dc0169562592a4e715430a54e8') in 0.003648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022131 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Assets.cs
+  artifactKey: Guid(eda7ff5f6e8175c4da119ea9ed256f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Assets.cs using Guid(eda7ff5f6e8175c4da119ea9ed256f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228d00ab1c70c0b2eabb42f06bfc2c15') in 0.004175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003830 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals/PersistentUndoRedoState.cs
+  artifactKey: Guid(5414db21dfea4d7eaff8ce4c8f106c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals/PersistentUndoRedoState.cs using Guid(5414db21dfea4d7eaff8ce4c8f106c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6807e3de59ed48ddd21b70b9809b2319') in 0.004073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004744 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/HullPainter.cs
+  artifactKey: Guid(86df15996814cff45aed711a3ccf2a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/HullPainter.cs using Guid(86df15996814cff45aed711a3ccf2a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8370362f2c668af136b7e1a93afd6a') in 0.003822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002921 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull
+  artifactKey: Guid(aac09b40c8090cc4ca76af3df5c41934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull using Guid(aac09b40c8090cc4ca76af3df5c41934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b765ffd8439c97f09ab9b1691a07bcc6') in 0.004501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034138 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/HalfEdge.cs
+  artifactKey: Guid(27fc4a497830ac64e940500f29c1465b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/HalfEdge.cs using Guid(27fc4a497830ac64e940500f29c1465b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e17896dfccb43c15d70467a0a5f917b') in 0.004364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002887 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor
+  artifactKey: Guid(f1e3d5cd613f5db46bf008df15424ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor using Guid(f1e3d5cd613f5db46bf008df15424ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8603d727dd883e07f56e718fc43d93c2') in 0.003530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007239 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Assets
+  artifactKey: Guid(87d70cfb1e610ac4dadb3551cb1dc28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Assets using Guid(87d70cfb1e610ac4dadb3551cb1dc28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2eba4ea591a8e9041429653a629a8b') in 0.001219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030973 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/SearchArg.cs
+  artifactKey: Guid(4a6b25ca9296c9e41affadc9ccecb1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/SearchArg.cs using Guid(4a6b25ca9296c9e41affadc9ccecb1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc8095b0158604df61b030bd65ebe57') in 0.004080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004103 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/TechnieIcon.png
+  artifactKey: Guid(daaa311e28e1c424c9b96613f005dbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/TechnieIcon.png using Guid(daaa311e28e1c424c9b96613f005dbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8931a824fe0edc3fc6088172d19030e6') in 0.007591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011220 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf398ad9d799ddc687e69632025b908') in 0.004797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002778 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src
+  artifactKey: Guid(1d7681912a9edcc4d9b3629e4f487604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src using Guid(1d7681912a9edcc4d9b3629e4f487604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9d2ea80ce1bd46a9467d3589a4221f') in 0.003752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003922 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/HullPainterChild.cs
+  artifactKey: Guid(77cfd6d302acfe3428983693d58cee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/HullPainterChild.cs using Guid(77cfd6d302acfe3428983693d58cee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ce7d31ab792f676d25d10b9f0c8c92') in 0.003532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004194 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/AddHullIcon.png
+  artifactKey: Guid(ecc732b82664910428d13a9ab8d87134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/AddHullIcon.png using Guid(ecc732b82664910428d13a9ab8d87134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abac93aae7f26aa6ecc631e30a348b46') in 0.007043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004329 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsSystem.cs
+  artifactKey: Guid(622f9ce2b229d5849b5a8f60a1486ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsSystem.cs using Guid(622f9ce2b229d5849b5a8f60a1486ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6df1ccfddeb68a8711dfca190d1c17') in 0.003509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004019 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/EditorCoroutine.cs
+  artifactKey: Guid(7c11de581d8eb874aafe0ecaf216a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/EditorCoroutine.cs using Guid(7c11de581d8eb874aafe0ecaf216a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b7d621b892fe41fc967ae518109f13') in 0.004605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003767 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/SettingsIcon.png
+  artifactKey: Guid(d8cfca6bf4353074fa9a19048c5dd36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/SettingsIcon.png using Guid(d8cfca6bf4353074fa9a19048c5dd36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0a9c2bbc517bc3ce203bf2ac968f4c') in 0.007989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004131 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Assets/White_1x1.mat
+  artifactKey: Guid(7d5e8e2c082a4c44a9abd7d650cf0a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Assets/White_1x1.mat using Guid(7d5e8e2c082a4c44a9abd7d650cf0a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaedc3c2ca20f7ec4a16a6aae16d37e9') in 0.041775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003989 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/SearchUtils.cs
+  artifactKey: Guid(66f3f357bedc44e2907d7e5f48de45d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/SearchUtils.cs using Guid(66f3f357bedc44e2907d7e5f48de45d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d28c9ef454766a7beec9ebcf6a32c61') in 0.004418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018595 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/UI_TextComplex.cs
+  artifactKey: Guid(8ba4b604c0e9db241bb3d130165415cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/UI_TextComplex.cs using Guid(8ba4b604c0e9db241bb3d130165415cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f401f18d351527259713ac5d6b1a8fee') in 0.003780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003966 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fe92fe607db60f560651caed2a59cf') in 0.005498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006310 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/Ext.cs
+  artifactKey: Guid(66f6b6922016ea04797deac8d082bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/Ext.cs using Guid(66f6b6922016ea04797deac8d082bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44225865dc13d45764f3371030bb5733') in 0.003761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002689 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/MonoBehaviours
+  artifactKey: Guid(5abf4c77cbf61d94995a40be42eeaee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/MonoBehaviours using Guid(5abf4c77cbf61d94995a40be42eeaee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda1f05f3cd1ee6d77c42e275b90f74f') in 0.003917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010147 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/QuickHull3D.cs
+  artifactKey: Guid(462c484a4aa854c47b3046a7520b2e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/QuickHull3D.cs using Guid(462c484a4aa854c47b3046a7520b2e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ac48c907ca0279674230c008c77236') in 0.003945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022628 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/Vhacd/VhacdInterface.cs
+  artifactKey: Guid(4d41891c5bf73df408284150d34541ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/Vhacd/VhacdInterface.cs using Guid(4d41891c5bf73df408284150d34541ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1baf5b7d70a6bdc943e864b1466c8d') in 0.003978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003847 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/MinimizeVolumeIcon.png
+  artifactKey: Guid(21ad19f23d6aadc4b98f7b8a7fb7c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/MinimizeVolumeIcon.png using Guid(21ad19f23d6aadc4b98f7b8a7fb7c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbbce08d74cfa49fcfd93c091e3d517') in 0.007347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004508 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/README.md
+  artifactKey: Guid(484480c77292d814397c3ea54478c998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/README.md using Guid(484480c77292d814397c3ea54478c998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e8bb6921c34bc2bff534e2fd49282e') in 0.012423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003949 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2fbc2a743f1ba44df975947c251f4c') in 0.007994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004282 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Resources/CodeMonkeyAssets.prefab
+  artifactKey: Guid(6cb9ffb1fe7e89d4a890b91c62fa7e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Resources/CodeMonkeyAssets.prefab using Guid(6cb9ffb1fe7e89d4a890b91c62fa7e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc9b2f2f8b7005870b23c6b643fee1e') in 0.010621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004033 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/EcsUtils.cs
+  artifactKey: Guid(3d81e9bb0744bc4448ddb9bbd93bffd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/EcsUtils.cs using Guid(3d81e9bb0744bc4448ddb9bbd93bffd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85f6d65b02dfb47ee60ce9b17b38bcd') in 0.003593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003262 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils
+  artifactKey: Guid(d900c58c01968cd42bb98e37d8e4d05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils using Guid(d900c58c01968cd42bb98e37d8e4d05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17f48128f1547e82c2f32e1de49fe8a') in 0.001441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003824 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/FaceList.cs
+  artifactKey: Guid(690836d657aabde499e569b43eb9d963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/FaceList.cs using Guid(690836d657aabde499e569b43eb9d963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc34f81cfdadab8fc8431c275171ebe9') in 0.004187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003913 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9030e3d4ece9a79bace501a44f7b8e0') in 0.003642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002722 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(0ff9862723b9db34fbf7dd0d911eb958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Fonts & Materials using Guid(0ff9862723b9db34fbf7dd0d911eb958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dcd9fd832b9f91d5534455617e2d93') in 0.003881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009720 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons
+  artifactKey: Guid(cb5402fd00b402c48b084e2d377fb208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons using Guid(cb5402fd00b402c48b084e2d377fb208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caff8be06c03e522298dffe0f8ddc4ca') in 0.003702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003534 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/MeshCutter/MeshCutter.cs
+  artifactKey: Guid(d1a2eda08b3620240be8f07f34aeeea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/MeshCutter/MeshCutter.cs using Guid(d1a2eda08b3620240be8f07f34aeeea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44224e8f558a68ee6c8f6fc32218b7a4') in 0.004532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038201 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759bfc8c8fe662ada2821fa30e33b40d') in 0.004445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020581 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/Button_UI.cs
+  artifactKey: Guid(602f74cbbbd80034b96f88091a8e7c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/Button_UI.cs using Guid(602f74cbbbd80034b96f88091a8e7c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82f11994615ad55b8e6b69d7562aa6a') in 0.003594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003557 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/PersistenceUtils.cs
+  artifactKey: Guid(764a6ef52ca2456eb7c276bbcd0929f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/PersistenceUtils.cs using Guid(764a6ef52ca2456eb7c276bbcd0929f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e596af65ff6e2a2ae171f2a2092473') in 0.003858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004452 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PreciseBrushIcon.png
+  artifactKey: Guid(b4213611b78bfd240b232362c955a40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PreciseBrushIcon.png using Guid(b4213611b78bfd240b232362c955a40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e7cb673866000630eecae2d3b4c273') in 0.007970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004138 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/World_Sprite.cs
+  artifactKey: Guid(1460472c3006fb44daea959dda2c4d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/World_Sprite.cs using Guid(1460472c3006fb44daea959dda2c4d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a2b27e372d8a1889445299024bcae6') in 0.003540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004696 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PaintAllIcon.png
+  artifactKey: Guid(08b8ec716b36d3743aae1c04f60ca6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PaintAllIcon.png using Guid(08b8ec716b36d3743aae1c04f60ca6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ac8f0b46f447321860d103d38d9a8a') in 0.007498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004672 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/TechniePhysicsCreator.asmdef
+  artifactKey: Guid(b18dd7b1e91aa4543bcb77b22df66401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/TechniePhysicsCreator.asmdef using Guid(b18dd7b1e91aa4543bcb77b22df66401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61854f0293d9c5ec63fd7c324419ad85') in 0.007853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060920 seconds.
+  path: Assets/Rover Cleaning Denis/BoxedConvexCollider/SampleScenes/Scenes/SampleScene.unity
+  artifactKey: Guid(447289e3f9669f648b89cb912b689423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/BoxedConvexCollider/SampleScenes/Scenes/SampleScene.unity using Guid(447289e3f9669f648b89cb912b689423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b814a50082f947ae1b5aa65ef13d91d') in 0.004663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004400 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/SelectionChanged.cs
+  artifactKey: Guid(1d0dc4d007bb4ebbbeea6626197d17b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/SelectionChanged.cs using Guid(1d0dc4d007bb4ebbbeea6626197d17b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f758c8406fe9011f87b6a1a4a0847b6') in 0.009782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.233991 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/SceneManipulator.cs
+  artifactKey: Guid(3853ddd563a3347c2abbb869cbcfb065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/SceneManipulator.cs using Guid(3853ddd563a3347c2abbb869cbcfb065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c59367b192bc3b14b8ce54de3e457a3') in 0.004376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002918 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Resources
+  artifactKey: Guid(9c480003fd87d3548ae91e921a89a579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Resources using Guid(9c480003fd87d3548ae91e921a89a579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979da2636c0cf90bb1242896185638d7') in 0.001495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011212 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/AufSerializableData.cs
+  artifactKey: Guid(14980ecc573d44c59b5f9323603c7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/AufSerializableData.cs using Guid(14980ecc573d44c59b5f9323603c7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9933563206951e6adfced3f85f8c980') in 0.003866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003921 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/FaceAlignmentBoxFitter.cs
+  artifactKey: Guid(c9cb071477f8cfb47a5d42a181df0257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/FaceAlignmentBoxFitter.cs using Guid(c9cb071477f8cfb47a5d42a181df0257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb20d29f2b3b196a77c029fc132ccc3') in 0.004021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002770 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff
+  artifactKey: Guid(5a1f5de3e19072249a9182176764c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff using Guid(5a1f5de3e19072249a9182176764c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341da2198fd391640afffa59ebd398f1') in 0.003976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004117 seconds.
+  path: Assets/Rover Cleaning Denis/BoxedConvexCollider/SampleScenes/Materials/Ground.mat
+  artifactKey: Guid(1dc287f92106d6c4cadb59321376dee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/BoxedConvexCollider/SampleScenes/Materials/Ground.mat using Guid(1dc287f92106d6c4cadb59321376dee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b0b0916357adfa35a5f65a73287205') in 0.010715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004346 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'TextMeshPro/Mobile/Distance Field': Couldn't open include file 'TMPro_Properties.cginc'. at line 93
+
+Compiling Vertex program with OUTLINE_ON
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNDERLAY_INNER UNDERLAY_ON UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT UNITY_VIRTUAL_TEXTURING
+Shader error in 'TextMeshPro/Mobile/Distance Field': Couldn't open include file 'TMPro_Properties.cginc'. at line 93
+
+Compiling Vertex program with OUTLINE_ON
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNDERLAY_INNER UNDERLAY_ON UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT UNITY_VIRTUAL_TEXTURING
+ -> (artifact id: '43e00518e67035b4cfe73c837322559a') in 0.073974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004762 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/CleanerStyleAsset.cs
+  artifactKey: Guid(16578cbec6a24ac4d951b5f328a970ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/CleanerStyleAsset.cs using Guid(16578cbec6a24ac4d951b5f328a970ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656a4a637d272689a3a947984efd4e78') in 0.004011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003993 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376dddaccdfb1821bd9ad61413c905c9') in 0.004534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011065 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31814b8e9a6a2d42a48cf87797f0e5e') in 0.004026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038670 seconds.
+  path: Assets/Rover Cleaning Denis/Technie
+  artifactKey: Guid(de6cd656d87051441b1068784aa392e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie using Guid(de6cd656d87051441b1068784aa392e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5bed466832aa2b42a01c400c18b884') in 0.003899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004607 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/World_Bar.cs
+  artifactKey: Guid(cc20fdc736e8c9442b35e4bcc04c596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/World_Bar.cs using Guid(cc20fdc736e8c9442b35e4bcc04c596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035c060ba6bd90752fe8b2afca7c997f') in 0.004204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002837 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals
+  artifactKey: Guid(f94bcb0962724eeea17b007a6ddfd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals using Guid(f94bcb0962724eeea17b007a6ddfd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5463342aa4be9eaa4cc1096ce7fe4c33') in 0.003885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004763 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/MonoBehaviours/ComponentActions.cs
+  artifactKey: Guid(cb3e855e7fda2944b91078893f9e8fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/MonoBehaviours/ComponentActions.cs using Guid(cb3e855e7fda2944b91078893f9e8fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0792c722683888594efd26b1c4feb175') in 0.004051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046712 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PaintOnIcon.png
+  artifactKey: Guid(1a45d9b420e15ec4987da6fa0e413854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PaintOnIcon.png using Guid(1a45d9b420e15ec4987da6fa0e413854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ba7be5e8a9ca4e08815b8fce7ace53') in 0.007379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006467 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/AlignFacesIcon.png
+  artifactKey: Guid(192988b1b9c6fec43af08cd940eca7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/AlignFacesIcon.png using Guid(192988b1b9c6fec43af08cd940eca7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67afc0b24fe4f65427376e1b196ae5f4') in 0.007601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012113 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/InternalErrorException.cs
+  artifactKey: Guid(fc11ad2f2e4230c499a52d0fa6855a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/InternalErrorException.cs using Guid(fc11ad2f2e4230c499a52d0fa6855a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9326ee535fb0e5cc97a53999a0078ab3') in 0.004282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004779 seconds.
+  path: Assets/Rover Cleaning Denis/Game_RoverMechanicSimulator/Cleaning/SolarPanelFlipBack.anim
+  artifactKey: Guid(17f481406c890154187971a02c8985fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Game_RoverMechanicSimulator/Cleaning/SolarPanelFlipBack.anim using Guid(17f481406c890154187971a02c8985fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6208245b1a5147d26e32aedc6e4d03d1') in 0.005969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004256 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/FunctionTimer.cs
+  artifactKey: Guid(9c8b5f0217e73fa47827cf77f22c2f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/FunctionTimer.cs using Guid(9c8b5f0217e73fa47827cf77f22c2f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db83f2bf2058bc9a3501a66aa833c63') in 0.004822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004033 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2759d2e1c3569a9d3fd30fd8fa8a5ede') in 0.004395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003937 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/DeleteIcon.png
+  artifactKey: Guid(ed626f3eb7ca82f4ca01ecc573abc52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/DeleteIcon.png using Guid(ed626f3eb7ca82f4ca01ecc573abc52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb49b76cffe48246047eb27461d9f40') in 0.008856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004443 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/FindModeEnum.cs
+  artifactKey: Guid(34e14d6333c649f4fb74ccdb6c86d8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/FindModeEnum.cs using Guid(34e14d6333c649f4fb74ccdb6c86d8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3b35a89ef26538adb8273923273244') in 0.003993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003948 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/RaycastUtil.cs
+  artifactKey: Guid(4fcc96bf7ae9f4b8e8c2bf292d367668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/RaycastUtil.cs using Guid(4fcc96bf7ae9f4b8e8c2bf292d367668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a602d91cb7acdb30bae0d0c3e28e0f58') in 0.004190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004411 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7cfd5194261f9eca255fc75c9285e6') in 0.004617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002385 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Fonts
+  artifactKey: Guid(2a8b36e427af8534fbd3c3972880188c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Fonts using Guid(2a8b36e427af8534fbd3c3972880188c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94e58ae7dad1976b069db62e188ca23') in 0.003977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003982 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsFilter.cs
+  artifactKey: Guid(b90027f88e50ab84091856e4c71b9710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsFilter.cs using Guid(b90027f88e50ab84091856e4c71b9710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d477fe8304a5d13c9b99db63eb6bc78') in 0.004844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004236 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/AssetsIcon.png
+  artifactKey: Guid(549d0d4476cd0604b9ec6cfeb1060dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/AssetsIcon.png using Guid(549d0d4476cd0604b9ec6cfeb1060dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb673b1a0a986a5d5cf7309a57023aa') in 0.007303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004172 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/AlignedCapsuleFitter.cs
+  artifactKey: Guid(f5436ac43bca8964cad694663000d7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/AlignedCapsuleFitter.cs using Guid(f5436ac43bca8964cad694663000d7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449f4941ec1101c5a2d7db00f43a7d5b') in 0.004280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004756 seconds.
+  path: Assets/Rover Cleaning Denis/BoxedConvexCollider/Scripts/BoxedConvexCollider.cs
+  artifactKey: Guid(7dafeda2b3f49c347a985b08d596513a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/BoxedConvexCollider/Scripts/BoxedConvexCollider.cs using Guid(7dafeda2b3f49c347a985b08d596513a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1026302f153975e3fe5b44fc975040c5') in 0.001449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010846 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'TextMeshPro/Mobile/Distance Field': Couldn't open include file 'TMPro_Properties.cginc'. at line 93
+
+Compiling Vertex program with OUTLINE_ON
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNDERLAY_INNER UNDERLAY_ON UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT UNITY_VIRTUAL_TEXTURING
+Shader error in 'TextMeshPro/Mobile/Distance Field': Couldn't open include file 'TMPro_Properties.cginc'. at line 93
+
+Compiling Vertex program with OUTLINE_ON
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNDERLAY_INNER UNDERLAY_ON UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT UNITY_VIRTUAL_TEXTURING
+ -> (artifact id: '6a436711062ae1265597b5c0e0b234db') in 0.022611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004584 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/AxisAlignedIcon.png
+  artifactKey: Guid(833ea652f359e0a4c8e0e989b588eee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/AxisAlignedIcon.png using Guid(833ea652f359e0a4c8e0e989b588eee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5248d3d39589d0b26562f71b4bbdd7') in 0.007281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003131 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs
+  artifactKey: Guid(cf3dfe88eca681d449c3f24f79d64b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs using Guid(cf3dfe88eca681d449c3f24f79d64b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79afa77298bc96d84aae82a75ef2c14f') in 0.003996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027101 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/Asr.cs
+  artifactKey: Guid(53c5eeeb89d541a5b26f906f93ffe650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/Asr.cs using Guid(53c5eeeb89d541a5b26f906f93ffe650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af56066fe6d43c6b284f9ddbaa0ef905') in 0.003746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004214 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91abe8b0b88a7d0faf20386107298b4c') in 0.004766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025089 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21285913173e101895e40e3ca9c297e') in 0.004853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004591 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD/liblibvhacd.so
+  artifactKey: Guid(93026905049f20e40b08aa302b05678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD/liblibvhacd.so using Guid(93026905049f20e40b08aa302b05678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b785dd86a2546792ea00feb3d89e802') in 0.004857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003998 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106c4d753e319c5336bbaf3edecb0e76') in 0.004270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002462 seconds.
+  path: Assets/Rover Cleaning Denis/1. DENIS/Textures/LowlyPoly/Free Stylized Textures/Textures
+  artifactKey: Guid(f27d60345cbd92e4b9e0bc334d5ff3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/1. DENIS/Textures/LowlyPoly/Free Stylized Textures/Textures using Guid(f27d60345cbd92e4b9e0bc334d5ff3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cefc0f3b00cc11873b9b65fa044468') in 0.004519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002646 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Content
+  artifactKey: Guid(f45f9c9770a8371428fce5031e1c7c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Content using Guid(f45f9c9770a8371428fce5031e1c7c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43acc3c6e4cf11fd16df09f20b89930') in 0.004400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004122 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/HullPainterWindow.cs
+  artifactKey: Guid(a952684a64956d842affe7a3ec467ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/HullPainterWindow.cs using Guid(a952684a64956d842affe7a3ec467ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89f5bee76f5b6197ab49f76167d6feb') in 0.004061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009015 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec93089de7b2ab365eb8bded0362392f') in 0.004401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004091 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Systems/SysWindowGui.cs
+  artifactKey: Guid(87ac41283aa347c4aece096c90076c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Systems/SysWindowGui.cs using Guid(87ac41283aa347c4aece096c90076c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccde37877681ed637236e653559df18') in 0.003938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004077 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/Face.cs
+  artifactKey: Guid(7ad961b2cc64ab147a228d62474da637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/Face.cs using Guid(7ad961b2cc64ab147a228d62474da637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e3ee21e340771324ffda5fdb93373c') in 0.003962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004295 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Systems/External/ProjectViewGui.cs
+  artifactKey: Guid(a17718cc645348b0bc4ed6d7e514ab30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Systems/External/ProjectViewGui.cs using Guid(a17718cc645348b0bc4ed6d7e514ab30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffdd3652c6a1e9fa88cadbabc27a491') in 0.004215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004148 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/UtilsClass.cs
+  artifactKey: Guid(ce2355f335dcae94abba806390b1bd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/UtilsClass.cs using Guid(ce2355f335dcae94abba806390b1bd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb31937c25718745e9fbaf840f7a349') in 0.004247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004116 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/InSceneResult.cs
+  artifactKey: Guid(013577ffef1140109e8367f2a5f75fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/InSceneResult.cs using Guid(013577ffef1140109e8367f2a5f75fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673e511295b83a27082c35a383775e3c') in 0.004036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003825 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/ErrorIcon.png
+  artifactKey: Guid(07e27c5dc9153aa44b63cd8605bea4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/ErrorIcon.png using Guid(07e27c5dc9153aa44b63cd8605bea4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ce8173858c4957ea9bcd5188ab9d62') in 0.007554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004201 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/HullInvisibleIcon.png
+  artifactKey: Guid(f0fe965cb6372cd44bc6c34df40fd252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/HullInvisibleIcon.png using Guid(f0fe965cb6372cd44bc6c34df40fd252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85344727da2408ea9d38b805da3ff8d3') in 0.009324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004344 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PipetteIcon.png
+  artifactKey: Guid(5930ea9ea8a88a047b2b55dc433870f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PipetteIcon.png using Guid(5930ea9ea8a88a047b2b55dc433870f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41eb6d3cc788202012345064745515a') in 0.007306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004314 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD/Third Party Notices.txt
+  artifactKey: Guid(b7a4c6a41fd5f154db490f14a6148ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD/Third Party Notices.txt using Guid(b7a4c6a41fd5f154db490f14a6148ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9657897be5deacf71eae27fd525bf6') in 0.004372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004165 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/README.txt
+  artifactKey: Guid(f59bf2b41588bd44780fc5218f7864e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/README.txt using Guid(f59bf2b41588bd44780fc5218f7864e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7270427fcd40f189364d082729d26739') in 0.004747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004110 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/Vector3d.cs
+  artifactKey: Guid(bd66ffd925e6bef4e931def55cc01633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/Vector3d.cs using Guid(bd66ffd925e6bef4e931def55cc01633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216031a1df6e2997e993f3dab1db7f7a') in 0.003626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003047 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner
+  artifactKey: Guid(16c62dd1ae9d745488e3d75d2aa64af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner using Guid(16c62dd1ae9d745488e3d75d2aa64af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4fe8fe2bb5e1ecdfd57a590b86c6f6') in 0.003986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003899 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851e34a3b238b505dca91457bd56ea52') in 0.004294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021129 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8fc3da3ede8baddd37f88167b9b28b') in 0.003825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.127581 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Systems/External
+  artifactKey: Guid(cbedea52d931409a8b62256873637225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Systems/External using Guid(cbedea52d931409a8b62256873637225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56475d47eb9946c6a34ccc9d859f5c9') in 0.004714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005392 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/AutoHullSettingsIcon.png
+  artifactKey: Guid(acb8ba32022b61744b4aaa2226e3ed65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/AutoHullSettingsIcon.png using Guid(acb8ba32022b61744b4aaa2226e3ed65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd37833cf71b3c942e2dbf971e0e4677') in 0.007770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004777 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/TriggerOffIcon.png
+  artifactKey: Guid(c4d783bf900b5ea4bb46c64ff04f470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/TriggerOffIcon.png using Guid(c4d783bf900b5ea4bb46c64ff04f470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc95e73273b52731dd1e31a46160716b') in 0.007896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003119 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/Vhacd
+  artifactKey: Guid(35605be146ba36748b7e76926cf010ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/Vhacd using Guid(35605be146ba36748b7e76926cf010ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad42818a5686cf985c2ad226216dbc34') in 0.004741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010713 seconds.
+  path: Assets/Rover Cleaning Denis/BoxedConvexCollider/Editor/BoxedConvexColliderEditor.cs
+  artifactKey: Guid(53fbc17675bb8394187849da5bf937f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/BoxedConvexCollider/Editor/BoxedConvexColliderEditor.cs using Guid(53fbc17675bb8394187849da5bf937f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7855141ea24d3e4813b797b99da3dcea') in 0.005305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029660 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Third-Party Notices.txt
+  artifactKey: Guid(1f955e95e9069b4439aa4fc90e0ee0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Third-Party Notices.txt using Guid(1f955e95e9069b4439aa4fc90e0ee0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9e88d209afc871a4648fa1e4b29390') in 0.004658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004271 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/Globals.cs
+  artifactKey: Guid(dd0464bfdb1b4253ba131c7140510c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/Globals.cs using Guid(dd0464bfdb1b4253ba131c7140510c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdcc3db5428b5d8329ad879145af9b2') in 0.001256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093282 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD
+  artifactKey: Guid(f3972ce7347a9d54496f2e16c50e7c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD using Guid(f3972ce7347a9d54496f2e16c50e7c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe9f18330973fec596d2e8a377018f3') in 0.003448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004371 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/SceneResult.cs
+  artifactKey: Guid(338e9e86c9274f91808429753a912d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/SceneResult.cs using Guid(338e9e86c9274f91808429753a912d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a2cb2ac9d835c8fb86faa16385f123') in 0.003790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077900 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5d8794b616eaadaed8777bb143591e') in 0.003388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009281 seconds.
+  path: Assets/Rover Cleaning Denis/1. DENIS/Textures/LowlyPoly
+  artifactKey: Guid(2483def8c4074ff48b3eb9459819ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/1. DENIS/Textures/LowlyPoly using Guid(2483def8c4074ff48b3eb9459819ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809253e3fff8b35cf9cf59228625e3f2') in 0.003658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004072 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/Result.cs
+  artifactKey: Guid(46f4fd24243adc749b377209f744d628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/Result.cs using Guid(46f4fd24243adc749b377209f744d628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745f791ef933c646fc94c49f9c1fb36a') in 0.003808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004394 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals/UndoRedoState.cs
+  artifactKey: Guid(c3ac9efa32c8491aa8a11749f8020d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals/UndoRedoState.cs using Guid(c3ac9efa32c8491aa8a11749f8020d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da2e0842a117f4961444b0fba5cd134') in 0.003637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007067 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Technie Collider Creator Readme.pdf
+  artifactKey: Guid(e4fb4618361b5ef49b31a21f640ca4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Technie Collider Creator Readme.pdf using Guid(e4fb4618361b5ef49b31a21f640ca4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59b6ae5395cb1659b1bc4fc3bf64e68') in 0.021971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004048 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/SelectionEntry.cs
+  artifactKey: Guid(2b4476be23474ea4b20262c0ee59983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/SelectionEntry.cs using Guid(2b4476be23474ea4b20262c0ee59983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d9c35a4fd274cd0bf300b3938c06dc') in 0.003971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029025 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator
+  artifactKey: Guid(b54d4ddd3ed446342b53e06a45ed6f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator using Guid(b54d4ddd3ed446342b53e06a45ed6f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381e487677b85288a52f923a63951c8c') in 0.004135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028243 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey
+  artifactKey: Guid(16b451a71f8c5644886a3d83a5a80de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey using Guid(16b451a71f8c5644886a3d83a5a80de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1832475f8db39e08af1d805d110b84bd') in 0.003822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003925 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/HullPainterChildEditor.cs
+  artifactKey: Guid(fa5a616a30c56124588c9b9a99d46b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/HullPainterChildEditor.cs using Guid(fa5a616a30c56124588c9b9a99d46b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d00f37162f20966a974c5798127f084') in 0.004117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010178 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/AxisAlignedBoxFitter.cs
+  artifactKey: Guid(61c979b85955b544db3f14e79349a262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/AxisAlignedBoxFitter.cs using Guid(61c979b85955b544db3f14e79349a262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1464f3696aaf6fd9daab87f658220853') in 0.004050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003807 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsWorld.cs
+  artifactKey: Guid(d506ff5dff038d547959e91aad707a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsWorld.cs using Guid(d506ff5dff038d547959e91aad707a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e887e1d747e1ce235a87040a3eb8c160') in 0.003691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004049 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/RotatedCapsuleFitter.cs
+  artifactKey: Guid(a0dcfcf8b301c5843af659d9f8b84253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/RotatedCapsuleFitter.cs using Guid(a0dcfcf8b301c5843af659d9f8b84253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f666d99ad6f3757f390624121ce6fed6') in 0.003971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004025 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198478c0e94db8c4501158fb3b2f59ab') in 0.004343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002665 seconds.
+  path: Assets/Rover Cleaning Denis/BoxedConvexCollider/Editor
+  artifactKey: Guid(f57139be9e0589145bffc77e4b910aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/BoxedConvexCollider/Editor using Guid(f57139be9e0589145bffc77e4b910aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3e2a53f1eaea71ba69d8a632814992') in 0.003342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004103 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PaintOffIcon.png
+  artifactKey: Guid(e605d6863e33297428559d65f14dfc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PaintOffIcon.png using Guid(e605d6863e33297428559d65f14dfc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b308ad2ecf878c0213e7d3096eda75') in 0.007327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004194 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/LargeBrushIcon.png
+  artifactKey: Guid(afc3ffe7e51ac4f4d8b083a2e4a48a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/LargeBrushIcon.png using Guid(afc3ffe7e51ac4f4d8b083a2e4a48a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f78eb95c8a47d73ad1ce0866c33fa9d') in 0.006827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018583 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bb784bb0e6f87843bf24c528df7257') in 0.004668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004111 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/CommonUi.cs
+  artifactKey: Guid(fb062ccd0f13146c1897aa2a507f8056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/CommonUi.cs using Guid(fb062ccd0f13146c1897aa2a507f8056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95e3a41d1f1f71265fbe778665e398e') in 0.004455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004012 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/HullVisibleIcon.png
+  artifactKey: Guid(f46ba0102ad24ae4bbdc6caa4d3f80c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/HullVisibleIcon.png using Guid(f46ba0102ad24ae4bbdc6caa4d3f80c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf8183f7ff1d26b7c0f7e7cf765675d') in 0.007398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035671 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/Vhacd
+  artifactKey: Guid(f499fb87d5ede334dacd0552c3e76e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/Vhacd using Guid(f499fb87d5ede334dacd0552c3e76e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c73d3c2afbaaaae5178b5a845e6780') in 0.001277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007901 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/PhysicsCreatorInstallRoot.cs
+  artifactKey: Guid(26ff2c5f67b408449944e917727a82b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/PhysicsCreatorInstallRoot.cs using Guid(26ff2c5f67b408449944e917727a82b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29eb3742c2e4a6db2ce3b8e068627082') in 0.001267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003951 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD/liblibvhacd.dylib
+  artifactKey: Guid(ebe36a8812809424591718256496aa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD/liblibvhacd.dylib using Guid(ebe36a8812809424591718256496aa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f07588691cb0e9af357883c6fb6bc72') in 0.002714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006898 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PaintNoneIcon.png
+  artifactKey: Guid(b751ac7540c16044ea2a8e8896f6cdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/PaintNoneIcon.png using Guid(b751ac7540c16044ea2a8e8896f6cdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d38b4921dfdb202dfd0ea54975cc1b') in 0.007627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002637 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5aa99e36510f23d626084d8be9669f') in 0.003528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003790 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888c52ab8b4a02e9496459cce6e7eaaf') in 0.004448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004141 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/UI_Sprite.cs
+  artifactKey: Guid(d0052e8fbe8cbcd4d8c48038d364333b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/UI_Sprite.cs using Guid(d0052e8fbe8cbcd4d8c48038d364333b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b3ba0b382e6c188186807564a6442a') in 0.003942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002460 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/MeshCutter
+  artifactKey: Guid(d9278afa6c3a84041a5ae9811c11010f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/MeshCutter using Guid(d9278afa6c3a84041a5ae9811c11010f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064408e11fbfc917addbbb4037449192') in 0.001375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006605 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/VertexList.cs
+  artifactKey: Guid(3a7ea8936f4782f4b9a052b4dbce7076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/VertexList.cs using Guid(3a7ea8936f4782f4b9a052b4dbce7076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcd5583af97f615f4f0591fa353abcb') in 0.003573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003593 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/ToolsIcon.png
+  artifactKey: Guid(91a5fcc568a62634192f36899af6e7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/ToolsIcon.png using Guid(91a5fcc568a62634192f36899af6e7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8dca594a016b6003aa87cc1f87868f') in 0.007847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004305 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsComponent.cs
+  artifactKey: Guid(15b66a8957ba23c418ec0f6922d999e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsComponent.cs using Guid(15b66a8957ba23c418ec0f6922d999e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bec1e3a18a8e8b50e4affababb4603') in 0.003734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003895 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/DirtyUtils.cs
+  artifactKey: Guid(3fd8e20db38143e3a3c51ea733bd0bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/DirtyUtils.cs using Guid(3fd8e20db38143e3a3c51ea733bd0bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8262140e35f4cf38852661d32c13ed29') in 0.003720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003791 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e2b2e56cba05e326ce4c78ea6d4b8d') in 0.004385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002256 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb160d1f2f0150837d5eca199ae2098') in 0.003839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032568 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Shaders
+  artifactKey: Guid(812af821c9f42b9478d4d5e86b01dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Shaders using Guid(812af821c9f42b9478d4d5e86b01dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6837c99b36747dccc71f59efdfa5bca8') in 0.001725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004167 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d002d849c5cd0c0e17360ed1ac232e4') in 0.005374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004009 seconds.
+  path: Assets/Rover Cleaning Denis/BoxedConvexCollider/Editor/BoxedConvexColliderWindow.cs
+  artifactKey: Guid(22000888db1dd4145a41e063162c5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/BoxedConvexCollider/Editor/BoxedConvexColliderWindow.cs using Guid(22000888db1dd4145a41e063162c5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5092c9c9c8905d1a492cb109bcaf4da') in 0.004867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003812 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/QHull Licence.txt
+  artifactKey: Guid(1b82c593e227ceb4d9bcf0cfbd7164ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/QHull Licence.txt using Guid(1b82c593e227ceb4d9bcf0cfbd7164ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8980e06b5139b0bed7884f1188c34c2') in 0.003846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004057 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs
+  artifactKey: Guid(b330b302c69005c4f98a928f7d71b877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs using Guid(b330b302c69005c4f98a928f7d71b877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723b16f3c6db9c041aedd49b959fedeb') in 0.004091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003513 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/TechniePhysicsCreatorEditor.asmdef
+  artifactKey: Guid(036adeee6ef1c0147b4afe7d4e8aac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/TechniePhysicsCreatorEditor.asmdef using Guid(036adeee6ef1c0147b4afe7d4e8aac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b042c2a896add625892fc3d9d2cfdbe') in 0.004199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003786 seconds.
+  path: Assets/Rover Cleaning Denis/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d728c85cdd25b46026a0bb391c1a62') in 0.001486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003762 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals/WindowData.cs
+  artifactKey: Guid(8481f043b2414c08a45957dcd6035fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals/WindowData.cs using Guid(8481f043b2414c08a45957dcd6035fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f600c65e3d91aedd951babba8776fb29') in 0.003625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003766 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/MeshCutter/CuttableMesh.cs
+  artifactKey: Guid(eda3227897c8e00418bbdf35e802921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/MeshCutter/CuttableMesh.cs using Guid(eda3227897c8e00418bbdf35e802921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1611515c76a662953788240f938fdfde') in 0.004446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002583 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Shaders
+  artifactKey: Guid(8f73a1ae6ed67474da63fba606e32cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/Shaders using Guid(8f73a1ae6ed67474da63fba606e32cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde5c181e49a25e2f790aa008254d62e') in 0.001293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021060 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142d9736623b0ea5379b39d502748b89') in 0.004739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.189971 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD/libvhacd.dll
+  artifactKey: Guid(f3f2df8dfc55d564b80e720ba5acdfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins/VHACD/libvhacd.dll using Guid(f3f2df8dfc55d564b80e720ba5acdfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe78f53043a350c738ef8756fb85282') in 0.006620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003881 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/CMDebug.cs
+  artifactKey: Guid(d6005648898e7f647ad2202fe256c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/CMDebug.cs using Guid(d6005648898e7f647ad2202fe256c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e506b10aae152b4f6cbd2372a6295b9c') in 0.003912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004698 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c7d8d721ebbf91ac25dcce5ae455ec') in 0.003901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002948 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins
+  artifactKey: Guid(300ea70cf430ecd42acbe3fae64dd3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Plugins using Guid(300ea70cf430ecd42acbe3fae64dd3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca7dc829a94d9ec11f4d5a2566e65fb') in 0.004160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010634 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Systems/External/AufWindow.cs
+  artifactKey: Guid(44ebd7bbb2bb41b4ba0187901e8d583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Systems/External/AufWindow.cs using Guid(44ebd7bbb2bb41b4ba0187901e8d583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5c96ec7f6fddbbef9511bb78fc821e') in 0.003779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003005 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts
+  artifactKey: Guid(211c8f36f27aadb43a25b42cead4869d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts using Guid(211c8f36f27aadb43a25b42cead4869d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405bb62c59610d17d059b82530e8dff2') in 0.004010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003914 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals/BacklinkStore.cs
+  artifactKey: Guid(004e5680782f4e679ae93027d2d40023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals/BacklinkStore.cs using Guid(004e5680782f4e679ae93027d2d40023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77505c50966d10db35d7aa1d02b0969f') in 0.003702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003853 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/SmallBrushIcon.png
+  artifactKey: Guid(41b6fa8a233663541881b57c4e309070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/SmallBrushIcon.png using Guid(41b6fa8a233663541881b57c4e309070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf6741aa567cd847f84d2462360510b') in 0.007113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005185 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Shaders/HullPainterOverlay.shader
+  artifactKey: Guid(7d5e80a1e9fbdca429199209bc6df8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Shaders/HullPainterOverlay.shader using Guid(7d5e80a1e9fbdca429199209bc6df8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc7a6cf736a0ea82fd06d13c643b145') in 0.004042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006455 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/Option.cs
+  artifactKey: Guid(098c45ccebe14f5caa28635386021c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/Option.cs using Guid(098c45ccebe14f5caa28635386021c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8963f7d928a846702be12d28c03bbd85') in 0.003621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004110 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/AufCtx.cs
+  artifactKey: Guid(999cc1329c8dd5743b39fe17eb02a7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/AufCtx.cs using Guid(999cc1329c8dd5743b39fe17eb02a7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70376bb26e79843334ec92bceea491ec') in 0.004185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004855 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/Button_Sprite.cs
+  artifactKey: Guid(4771330f098d1db4898ad07204154d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/Button_Sprite.cs using Guid(4771330f098d1db4898ad07204154d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7a572ad8f4de25d6f2194673397029') in 0.003955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004382 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/FunctionPeriodic.cs
+  artifactKey: Guid(f522bd6f08a5c984a9512bb60ebc1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/FunctionPeriodic.cs using Guid(f522bd6f08a5c984a9512bb60ebc1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac95d435e96e00ee293ee1c6a2f728') in 0.003697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004097 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/MediumBrushIcon.png
+  artifactKey: Guid(5849a78c0ab105f40b47df89e39de0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Icons/MediumBrushIcon.png using Guid(5849a78c0ab105f40b47df89e39de0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41d07ae90786c903b2b07573ad47ccf') in 0.009008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004533 seconds.
+  path: Assets/Rover Cleaning Denis/Game_RoverMechanicSimulator/Cleaning/SolarPanelFlip.anim
+  artifactKey: Guid(fe6c6debd490e444991079be561218a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Game_RoverMechanicSimulator/Cleaning/SolarPanelFlip.anim using Guid(fe6c6debd490e444991079be561218a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a98e3ed91b57f8b446351c0de48363') in 0.004892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003096 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro
+  artifactKey: Guid(96020c8a102d75e4b817cdddd1838ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro using Guid(96020c8a102d75e4b817cdddd1838ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beebd5a04cf690d9be258519012710f9') in 0.003674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003938 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/PhysicsCreatorHullFolder.cs
+  artifactKey: Guid(eb0c7f64877ff9141b1cdafb82d362be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/PhysicsCreatorHullFolder.cs using Guid(eb0c7f64877ff9141b1cdafb82d362be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a72b9eead5dd61be28c42cc29b85d3') in 0.003694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003882 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Systems/SysSceneCleanup.cs
+  artifactKey: Guid(d42cae4aa3ff4500948ddd623a270120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Systems/SysSceneCleanup.cs using Guid(d42cae4aa3ff4500948ddd623a270120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216538cdb6d73605ffc8eb232e20d726') in 0.003767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005860 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Systems
+  artifactKey: Guid(4b15d89b453047218955641734d4ec9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Systems using Guid(4b15d89b453047218955641734d4ec9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c0c1a999ccbdb87a90333326582f62') in 0.004142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004061 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Systems/External/ProcessAllAssets.cs
+  artifactKey: Guid(17c1f845fa88d38448c4cf65e9745f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Systems/External/ProcessAllAssets.cs using Guid(17c1f845fa88d38448c4cf65e9745f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2281d01e751ff04ccbc4c9445ca39572') in 0.003747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004576 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/HullPainterShortcuts.cs
+  artifactKey: Guid(b60be02ef0d5a3b4eb31db45731d0a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Editor/HullPainterShortcuts.cs using Guid(b60be02ef0d5a3b4eb31db45731d0a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506f66479b55762f4d5ee8372fc11e94') in 0.004018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003893 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/SphereUtils.cs
+  artifactKey: Guid(1190fb04f569b744a8c03ea247ecb50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/SphereUtils.cs using Guid(1190fb04f569b744a8c03ea247ecb50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcb746d8424f55909290dca4388b377') in 0.004344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003734 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/Vertex.cs
+  artifactKey: Guid(2a6c8795da0e1b24e8614596363fd720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/Vertex.cs using Guid(2a6c8795da0e1b24e8614596363fd720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99897e138153ab9f03339672781ad02') in 0.003957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003913 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ac530f361fb9b03c0b4e3c8cc429e6') in 0.028853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002716 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c825b4ecabc52a724fdd8944d5209777') in 0.003735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004041 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsEntity.cs
+  artifactKey: Guid(2813e6db660119c42933cad837cdc77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsEntity.cs using Guid(2813e6db660119c42933cad837cdc77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cabc80e025df92c80f6183b3073012') in 0.003772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004428 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/HullData.cs
+  artifactKey: Guid(74576fe588befbe4087dd6600108db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/HullData.cs using Guid(74576fe588befbe4087dd6600108db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b28c0cc852dbb9b473558324771a161') in 0.003917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003985 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/MeshCutter/CuttableSubMesh.cs
+  artifactKey: Guid(59827383eb7542646bd86e7ba06b65b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/MeshCutter/CuttableSubMesh.cs using Guid(59827383eb7542646bd86e7ba06b65b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7de77e6e68c68e0826e33b1d9eb35e') in 0.003957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004384 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32ec3ad29eb16bdd455ca81d67a998b') in 0.004935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004446 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/FunctionUpdater.cs
+  artifactKey: Guid(7eacfbf662ad34e46932f36084c15e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/Utils/FunctionUpdater.cs using Guid(7eacfbf662ad34e46932f36084c15e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dc80b1b39edbf5d53180d648daf591') in 0.003834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003801 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals/Config.cs
+  artifactKey: Guid(a6ff796e4dab4324887a303cba29eed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/Globals/Config.cs using Guid(a6ff796e4dab4324887a303cba29eed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd808ff0b9abb4465e367732c0d42888') in 0.003998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005126 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/CommonUtils.cs
+  artifactKey: Guid(4a0fa79cb05e495a8dc80a251a33970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/CommonUtils.cs using Guid(4a0fa79cb05e495a8dc80a251a33970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065162d9eea97d72f964ecd891d23778') in 0.003987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002779 seconds.
+  path: Assets/Rover Cleaning Denis/Scenes
+  artifactKey: Guid(113f40aab66fc3b47a973355406f3d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Scenes using Guid(113f40aab66fc3b47a973355406f3d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd947d153585d4a1269da0ea9a4a15241') in 0.004022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004177 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Utils/Pool.cs
+  artifactKey: Guid(b5a618b193c34a5cba77e7cc0df122f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Utils/Pool.cs using Guid(b5a618b193c34a5cba77e7cc0df122f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdeb2b43b923b88553e04b47843c1cc8') in 0.003371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002933 seconds.
+  path: Assets/Rover Cleaning Denis/BoxedConvexCollider/Scripts
+  artifactKey: Guid(28091d8fff4ca6244b19d96b0cd219d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/BoxedConvexCollider/Scripts using Guid(28091d8fff4ca6244b19d96b0cd219d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4a0d59c861dedaee21964628874597') in 0.001515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034688 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsHelpers.cs
+  artifactKey: Guid(93f7c1225241e624693cdb11c7f16e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/com.leopotam.ecs/src/EcsHelpers.cs using Guid(93f7c1225241e624693cdb11c7f16e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58031bec967b2e6c91cf4efd4562159') in 0.004024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007355 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/Data/SearchResultGui.cs
+  artifactKey: Guid(14f26ff078c04c5685fdbb3ec3f92382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/Data/SearchResultGui.cs using Guid(14f26ff078c04c5685fdbb3ec3f92382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64247b59055987bf357d965a2af3442c') in 0.004257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024666 seconds.
+  path: Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/Point3d.cs
+  artifactKey: Guid(327a04a9fbbd0f74892566d6180c1222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Technie/PhysicsCreator/Scripts/QHull/Point3d.cs using Guid(327a04a9fbbd0f74892566d6180c1222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ff4d77b94c43d1059baa534214a8c7') in 0.003848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004046 seconds.
+  path: Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs
+  artifactKey: Guid(31e947e7eb3216d40b72c592fa6847a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/_/Stuff/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs using Guid(31e947e7eb3216d40b72c592fa6847a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230d519b481cc3553ca9222253f03bfd') in 0.004143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004307 seconds.
+  path: Assets/Rover Cleaning Denis/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a2af7e92151a43bc0dc4551f91963d') in 0.032794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004300 seconds.
+  path: Assets/Rover Cleaning Denis/Asset Cleaner/readme.txt
+  artifactKey: Guid(91b865f19ed9ae24c8eabf86917841de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rover Cleaning Denis/Asset Cleaner/readme.txt using Guid(91b865f19ed9ae24c8eabf86917841de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27650b05f16bf06c102052089bd285b5') in 0.004255 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 21.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (722ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (21ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 550 unused Assets to reduce memory usage. Loaded Objects now: 3309.
+Total: 2.602100 ms (FindLiveObjects: 0.227800 ms CreateObjectMapping: 0.106600 ms MarkObjects: 1.931300 ms  DeleteObjects: 0.335500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
